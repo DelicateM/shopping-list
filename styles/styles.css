@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+h1 {
+  color: #befdf3;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+#itemInput {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+#addItemButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1ddaa1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#addItemButton:hover {
+  background-color: #9ff3da;
+}
+#shoppingList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+}
+#shoppingList li.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+  color: #39e79f;
+}
+.complete-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.complete-button:hover {
+  background-color: #0056b3;
+}
