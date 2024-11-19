@@ -1,7 +1,7 @@
 document.getElementById("addItemButton").addEventListener("click", addItem);
 function addItem() {
   const itemInput = document.getElementById("itemInput");
-  const itemText = itemInput.ariaValueMax.trim();
+  const itemText = itemInput.value.trim();
   if (itemText === "") {
     alert("Please enter an item.");
     return;
